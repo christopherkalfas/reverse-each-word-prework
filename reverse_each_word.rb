@@ -7,6 +7,6 @@
 #   array_2.join(" ")
 # end 
 
-def reverse_each_word(array)
-  array.split(" ").collect {|x| x.reverse!}.join(" ")
+def reverse_each_word(sentence)
+  sentence.split(" ").collect {|x| x.reverse!}.join(" ")
 end
