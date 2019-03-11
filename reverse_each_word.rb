@@ -1,5 +1,5 @@
 def reverse_each_word(sentence)
-  array_1 = string.split(" ")
+  array_1 = sentence.split(" ")
   array_2 = []
   array_1.each do |gnirts|
     array_2 << gnirts.reverse
